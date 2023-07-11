@@ -284,6 +284,9 @@
         //Global variable to remember current showing slide number
         let currentSlideIndex;
 
+        //Global Variable to set the slide transition time, use here and in function transitionTimeIncrease and function transitionTimeDecrease
+        let SLIDE_TRANSITION_TIME = 10000;
+
         //Use to clear and reset the new slide transition time
         //Use here and also in Part 2: Transition
         let intervalTransition;
@@ -365,11 +368,8 @@
 
     <!-- Part 2: Transition -->
     <script>
-        //Global Variable to set the slide transition time, use here and in function transitionTimeIncrease and function transitionTimeDecrease
-        let SLIDE_TRANSITION_TIME = 10000;
-
-        // Global variable: intervalTransition already declare in part 1
-        
+        //Global Variable that already declare in Part 1:
+        // SLIDE_TRANSITION_TIME, intervalTransition
 
         //Write the SLIDE_TRANSITION_TIME to show up
         const showTransitionTime = document.getElementById("showTransitionTime");
