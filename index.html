@@ -62,7 +62,8 @@
             transform: translate(-50%);
             top: 22%;
             z-index: 1;
-            font-family: "经典魏碑简", "KaiTi", "楷体", serif; 
+            /* you have to create a new font for 经典魏碑简 where its font name is in English and install both 经典魏碑简 and JingDianWeiBeiJian to the computer in case the system is US cannot recognise 经典魏碑简 */
+            font-family: "经典魏碑简", "JingDianWeiBeiJian", "KaiTi", "楷体", serif; 
             /*as a fallback if broswer do not support clamp*/
             font-size: 16px;
             font-size: clamp(0.5rem, -0.2875rem + 3.5vw, 2.25rem);
